@@ -1,0 +1,3 @@
+As a user I can run the program
+As a user I can see any output
+...

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.rawgit.com/Chalarangelo/mini.css/v3.0.1/dist/mini-default.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+
+  <body>
+    <div id="app">
+      <form>
+        <fieldset>
+          <legend>Price calculator</legend>
+          <div class="row">
+            <div class="col-sm-12 col-md-6">
+              <label for="quantity">Quantity</label>
+              <input type="number" id="quantity" placeholder="100" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 col-md-6">
+              <label for="unit-price">Unit price</label>
+              <input type="number" id="unit-price" placeholder="5" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 col-md-6">
+              <label for="state">State</label>
+              <input type="text" id="state" placeholder="CA" />
+            </div>
+          </div>
+        </fieldset>
+      </form>
+      <button class="primary">Submit</button>
+      <button class="secondary">Clear</button>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
